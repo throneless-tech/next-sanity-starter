@@ -1,0 +1,35 @@
+{
+  "name": "next-sanity-starter",
+  "version": "1.0.0",
+  "description": "A starter template using Next.js and Sanity.io.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/throneless-tech/next-sanity-starter.git"
+  },
+  "author": "Rae Gaines, Throneless Tech <rae@throneless.tech>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/throneless-tech/next-sanity-starter/issues"
+  },
+  "homepage": "https://github.com/throneless-tech/next-sanity-starter#readme",
+  "dependencies": {
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.2.2",
+    "@sanity/block-content-to-react": "^3.0.0",
+    "@sanity/client": "^2.22.3",
+    "@sanity/image-url": "^1.0.1",
+    "express": "^4.17.1",
+    "groq": "^2.15.0",
+    "next": "^12.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

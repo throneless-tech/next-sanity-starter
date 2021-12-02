@@ -1,0 +1,34 @@
+{
+  "name": "next-sanity-starter",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Rae Gaines <rae@throneless.tech>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.22.3",
+    "@sanity/core": "^2.22.3",
+    "@sanity/default-layout": "^2.22.4",
+    "@sanity/default-login": "^2.22.3",
+    "@sanity/desk-tool": "^2.22.3",
+    "@sanity/vision": "^2.22.3",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "sanity-plugin-autocomplete-tags": "^1.0.1",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:throneless-tech/next-sanity-starter.git"
+  }
+}
